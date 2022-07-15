@@ -37,11 +37,12 @@ public class EjemploGlobalFilter implements GlobalFilter, Ordered {
 
 	/**
 	 * Define el orden de ejecución de los filtros.
+	 * 
 	 * @return
 	 */
 	@Override
 	public int getOrder() {
-		return -1;
+		return 10;
 	}
 
 }
